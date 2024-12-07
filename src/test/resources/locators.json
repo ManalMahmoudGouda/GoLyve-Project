@@ -1,0 +1,12 @@
+{
+  "searchBox": "//textarea[@name='q']",
+  "weatherWidget": "//*[contains(text(),'Marsa al `Alam, Red Sea, Egypt Weather Forecast')]",
+  "flightWidget" : "//*[contains(text(), 'Flights to Marsa Alam - Cheap Flight Marsa Alam') or contains(text(), 'رحلات جوية إلى مرسى علم')]",
+  "restaurantWidget": "//*[contains(text(),'Restaurants in Marsa Alam ')]",
+  "temperatureElement": "//span[contains(@class, 'wob_t')]",
+  "conditionElement" : "//div[contains(@id,'wob_loc')]",
+  "morePlacesBtn" : "//span[contains(text(), 'المزيد من الأماكن') or contains(text(), 'More places')]",
+  "fullListOfRetedRestaurants": "//div[@class='rl_full-list']",
+  "restaurantDetails" : ".//div[@class='rllt__details']",
+  "ratingElement": ".//span[contains(@aria-label, 'تم التقييم') or contains(text(), 'Rated') ]"
+}
